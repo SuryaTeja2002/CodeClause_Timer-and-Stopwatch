@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>StopWatch</title>
+</head>
+<body>
+    <nav><div class="nav">
+        <ul>
+            <li><a href="#"  onclick="home()">Home</a></li>
+            <li><a href="#" onclick="clk()">Clock</a></li>
+            <li><a href="#" onclick="stpw()">StopWatch</a></li>
+        </ul>
+    </div>
+    </nav>
+<div class="container">
+    <div id="clock">
+        <div id="time">
+            <div class="text" id="text" style="font-size: 3rem;">Clock</div>
+            <div class="circle" style="--clr:#ff2972;">
+                <div class="dots hr_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="hh"></circle>
+                </svg>
+                <div id="hours">00</div>
+            </div>
+            <div class="circle" style="--clr:#fee800;">
+                <div class="dots min_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="mm"></circle>
+                </svg>
+                <div id="minutes">00</div>
+            </div> 
+            <div class="circle" style="--clr:#04fc43;">
+                <div class="dots sec_dot"></div>
+
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="ss"></circle>
+                </svg>
+                <div id="seconds">00</div>
+            </div>
+            <div class="ap">
+                <div id="ampm">AM</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="stopwatch">
+        <div id="time">
+            <div class="text" id="text" style="font-size: 3rem;">Stopwatch</div>
+            <div class="circle" style="--clr:#ff2972;">
+                <div class="dots hrsw_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="hhsw"></circle>
+                </svg>
+                <div id="hoursw">00</div>
+            </div>
+            <div class="circle" style="--clr:#fee800;">
+                <div class="dots minsw_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="mmsw"></circle>
+                </svg>
+                <div id="minutesw">00</div>
+            </div> 
+            <div class="circle" style="--clr:#04fc43;">
+                <div class="dots secsw_dot"></div>
+
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="sssw"></circle>
+                </svg>
+                <div id="secondsw">00</div>
+            </div>
+            <div class="buttons">
+                <img src="images/stop.png" alt="Stop" onclick="watchstop()">
+                <img src="images/play.png" alt="Start" onclick="watchstart()">
+                <img src="images/reset.png" alt="reset" onclick="watchreset()">
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>    
+</body>
+</html>
