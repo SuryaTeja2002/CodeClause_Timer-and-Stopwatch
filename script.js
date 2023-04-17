@@ -2,35 +2,7 @@
 let section1 = document.getElementById('clock');
 let section2 = document.getElementById('stopwatch');
 
-
-
-// function clk() {
-//   section1.style.display = 'flex';
-//   section2.style.display = 'none';
-
-// }
-
-// function stpw() {
-
-//   section2.style.display = 'flex';
-//   section1.style.display = 'none';
-//   section2.style.minHeight='70vh';
-// }
-
-const section0 = document.querySelector('.container');
-// function home() {
-  
-//   // set display style of clock and stopwatch divs to flex
-//   section1.style.display = 'flex';
-//   section2.style.display = 'flex';
-  
-//   // set min-height style of stopwatch div to 70vh
-//   section2.style.minHeight = '70vh';
-  
-//   // set display style of container div to flex
-//   section0.style.display = 'flex';
-// }
-
+  const section0 = document.querySelector('.container');
 
 
 
@@ -200,6 +172,31 @@ function laptime() {
   lapCount++;
 }
 
+// function clk() {
+//   section1.style.display = 'flex';
+//   section2.style.display = 'none';
 
+// }
+
+// function stpw() {
+
+//   section2.style.display = 'flex';
+//   section1.style.display = 'none';
+//   section2.style.minHeight='70vh';
+// }
+
+// function home() {
+  
+  //   // set display style of clock and stopwatch divs to flex
+  //   section1.style.display = 'flex';
+  //   section2.style.display = 'flex';
+  
+  //   // set min-height style of stopwatch div to 70vh
+  //   section2.style.minHeight = '70vh';
+  
+  //   // set display style of container div to flex
+  //   section0.style.display = 'flex';
+  // }
+  
 
 
