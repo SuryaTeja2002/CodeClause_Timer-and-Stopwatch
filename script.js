@@ -140,7 +140,8 @@ let hrsw_dot=document.querySelector('.hrsw_dot');
 let minsw_dot=document.querySelector('.minsw_dot');
 let secsw_dot=document.querySelector('.secsw_dot');
 
-
+let lapList = document.getElementById('lapList');
+let lapCount = 0;
 function stopwatch() {
   s1++;
   if (s1 == 60) {
@@ -198,6 +199,16 @@ function watchreset() {
   hoursw.textContent = "00";
   secondsw.textContent = "00";
 }
+
+
+function laptime() {
+  let lapTime = document.createElement("li");
+  let lapTimeValue = document.createTextNode(`${hoursw.textContent}:${minutesw.textContent}:${secondsw.textContent}`);
+  lapTime.appendChild(lapTimeValue);
+  lapList.appendChild(lapTime);
+  lapCount++;
+}
+
 
 
 

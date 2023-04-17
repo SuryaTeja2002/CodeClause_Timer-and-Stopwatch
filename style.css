@@ -204,4 +204,52 @@ body{
   }
   
 
+  /* #lapList {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+  } */
+
+  /* .lap-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .lap-table th,
+  .lap-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .lap-table th {
+    background-color: #ddd;
+    font-weight: bold;
+  }
+  
+  .lap-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  } */
+
+  #lapList {
+    margin-top: 20px; /* adjust the margin as needed */
+  }
+  
+  #stopwatch {
+    position: relative;
+  }
+  
+  #lapList {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    transform: translateY(283px);
+  }
+  
+  
+
   
