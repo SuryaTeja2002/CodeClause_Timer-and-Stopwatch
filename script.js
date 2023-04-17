@@ -18,7 +18,6 @@ let section2 = document.getElementById('stopwatch');
 // }
 
 const section0 = document.querySelector('.container');
-
 // function home() {
   
 //   // set display style of clock and stopwatch divs to flex
@@ -31,6 +30,7 @@ const section0 = document.querySelector('.container');
 //   // set display style of container div to flex
 //   section0.style.display = 'flex';
 // }
+
 
 
 
@@ -170,15 +170,6 @@ hrsw_dot.style.transform=`rotate(${h2*30}deg)`;
 minsw_dot.style.transform=`rotate(${m2*6}deg)`;
 secsw_dot.style.transform=`rotate(${s2*6}deg)`;
 }
-
-
-
-
-
-
-
-
-
 
 
 function watchstart() {
