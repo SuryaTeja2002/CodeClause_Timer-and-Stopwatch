@@ -120,11 +120,11 @@ body{
     /*70*/
     background: #2f363e;
 }
-.buttons{
+.buttons,.tbuttons{
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateY(179px) translateX(94px);
+    transform: translateY(179px) translateX(90px);
     
 }
 .buttons img{
@@ -194,6 +194,31 @@ body{
     transform: translateY(283px);
   }
   
+
+
+  #timer{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh; 
+    /*70*/
+    background: #2f363e;
+}
   
+
+.tbuttons img{
+  width:66px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.tbuttons img:nth-child(3){
+  width:98px;
+}
+
+.PlMi{
+  display: flex;
+  flex-direction: column;
+}
 
   

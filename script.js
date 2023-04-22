@@ -1,8 +1,8 @@
 
 let section1 = document.getElementById('clock');
 let section2 = document.getElementById('stopwatch');
-
-  const section0 = document.querySelector('.container');
+const section0 = document.querySelector('.container');
+let section3=document.getElementById('timer');
 
 
 
@@ -10,6 +10,8 @@ function home() {
   section1.style.display = 'flex';
   section2.style.display = 'flex';
   section0.style.display = 'flex';
+  section3.style.display = 'none';
+
   section0.style.flexDirection = 'row';
   section0.style.justifyContent = 'space-evenly';
   section0.style.alignItems = 'center';
@@ -19,6 +21,8 @@ function clk() {
   section1.style.display = 'flex';
   section2.style.display = 'none';
   section0.style.display = 'flex';
+  section3.style.display = 'none';
+
   section0.style.flexDirection = 'column';
   section0.style.justifyContent = 'center';
   section0.style.alignItems = 'center';
@@ -27,10 +31,18 @@ function clk() {
 function stpw() {
   section2.style.display = 'flex';
   section1.style.display = 'none';
+  section3.style.display = 'none';
+  
   section0.style.display = 'flex';
   section0.style.flexDirection = 'column';
   section0.style.justifyContent = 'center';
   section0.style.alignItems = 'center';
+}
+
+function tmr(){
+  section3.style.display='flex';
+  section1.style.display = 'none';
+  section2.style.display = 'none';
 }
 
 
